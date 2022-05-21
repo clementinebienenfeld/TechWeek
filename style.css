@@ -1,0 +1,47 @@
+:root {
+  --BLEU: #78b5d6;
+  --GRIS: #434e58;
+}
+
+header {
+  border: solid 1px var(--BLEU);
+  border-radius: 10%;
+}
+
+header > img {
+  border-radius: 10%;
+  max-width: 30%;
+  height: auto;
+  text-align: center;
+}
+
+h1 {
+  color: var(--GRIS);
+  text-align: center;
+}
+
+fieldset {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  border: 2px solid var(--BLEU);
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
